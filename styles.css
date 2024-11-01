@@ -18,6 +18,14 @@ body {
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
 
+.container-bord{
+    border-radius: 8px 8px 0 0;
+}
+
+.container-low{
+    border-radius: 0 0 8px 8px;
+}
+
 .container-form {
     max-width: 440px;
     margin: 0 auto; 
@@ -55,6 +63,6 @@ button {
 }
 
 button:hover {
-    background-color: #333;
+    background-color: rgb(100, 99, 99);
 }
 
